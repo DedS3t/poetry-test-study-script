@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Dover Beach",
+        "author": "Matthew Arnold",
+        "poem": "dover_beach.txt"
+    },
+    {
+        "name": "Eternity",
+        "author": "William Blake",
+        "poem": "eternity.txt"
+    },
+    {
+        "name": "The City",
+        "author": "CP Cavafy",
+        "poem": "the_city.txt"
+    },
+    {
+        "name": "Yet do I Marvel",
+        "author": "Countee Cullen",
+        "poem": "yet_do_I_marvel.txt"
+    },
+    {
+        "name": "The Flea",
+        "author": "John Donne",
+        "poem": "the_flea.txt"
+    },
+    {
+        "name": "The Embrace",
+        "author": "Mark Doty",
+        "poem": "the_embrace.txt"
+    },
+        {
+        "name": "The Rhodora",
+        "author": "Ralph Waldo Emerson",
+        "poem": "the_rhodora.txt"
+    },
+    {
+        "name": "Monet's Waterlillies",
+        "author": "Robert Hayden",
+        "poem": "monets_waterlillies.txt"
+    },
+    {
+        "name": "The Darking Thrush",
+        "author": "Thomas Hardy",
+        "poem": "the_darking_thrush.txt"
+    },
+    {
+        "name": "Meditation at Lagunitas",
+        "author": "Robert Hass",
+        "poem": "meditation_at_lagunitas.txt"
+    },
+    {
+        "name": "The Pebble",
+        "author": "Zbigniew Herbert",
+        "poem": "the_pebble.txt"
+    },
+        {
+        "name": "The Windhover",
+        "author": "Gerard Manley Hopkins",
+        "poem": "the_windhover.txt"
+    },
+        {
+        "name": "Sonnet VII",
+        "author": "John Keats",
+        "poem": "sonnet_7.txt"
+    },
+        {
+        "name": "The Snowman",
+        "author": "Wallace Stevens",
+        "poem": "the_snowman.txt"
+    },
+        {
+        "name": "Ulysses",
+        "author": "Alfred Lord Tennyson",
+        "poem": "ulysses.txt"
+    },
+        {
+        "name": "Cheer",
+        "author": "Stanley Plumly",
+        "poem": "cheer.txt"
+    },
+        {
+        "name": "Death",
+        "author": "Donald Revell",
+        "poem": "death.txt"
+    },
+        {
+        "name": "Paradoxes and Oxymorons",
+        "author": "John Ashberry",
+        "poem": "paradoxes_and_oxymorons.txt"
+    },
+    {
+        "name": "The Nails",
+        "author": "WS Merwin",
+        "poem": "the_nails.txt"
+    },
+    {
+        "name": "Time to Come",
+        "author": "Walt Whitman",
+        "poem": "time_to_come.txt"
+    },
+    {
+        "name": "Names of Horses",
+        "author": "Donald Hall",
+        "poem": "names_of_horses.txt"
+    }
+]
