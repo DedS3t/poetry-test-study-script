@@ -19,6 +19,8 @@ func removeSpaces(s string) string {
 }
 
 func main() {
+	rand.Seed(time.Now().UnixNano())
+
 	file, err := ioutil.ReadFile("poems.json")
 	if err != nil {
 		panic(err)

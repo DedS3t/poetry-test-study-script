@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"path/filepath"
 	"strings"
+	"time"
 
 	"github.com/deds3t/poem-study/app/models"
 )
@@ -20,6 +21,7 @@ type Poem struct {
 }
 
 func CreatePoem(dto models.PoemDto) *Poem {
+	rand.Seed(time.Now().UnixNano())
 	data, err := ioutil.ReadFile(filepath.Join(POEM_FOLDER, dto.Poem))
 	if err != nil {
 		panic(err)
