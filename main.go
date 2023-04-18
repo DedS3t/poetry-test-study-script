@@ -14,8 +14,8 @@ import (
 	"github.com/deds3t/poem-study/pkg"
 )
 
-func removeSpaces(s string) string {
-	return strings.ReplaceAll(s, " ", "")
+func filterString(s string) string {
+	return strings.ReplaceAll(strings.ToLower(s), " ", "")
 }
 
 func main() {
@@ -60,7 +60,7 @@ func main() {
 			break
 		}
 
-		acc := pkg.CosineSimilarity(removeSpaces(response), removeSpaces(p.Name+p.Author))
+		acc := pkg.CosineSimilarity(filterString(response), filterString(p.Name+p.Author))
 		var res string
 		if acc > .75 {
 			res = "correct"
@@ -69,9 +69,7 @@ func main() {
 		}
 
 		fmt.Printf("You are %s with an accuracy of %f\n", res, acc)
-		if res == "incorrect" {
-			fmt.Printf("It was %s by %s", p.Name, p.Author)
-		}
+		fmt.Printf("It was %s by %s", p.Name, p.Author)
 
 		fmt.Print("\n\n\n")
 		time.Sleep(2 * time.Second)

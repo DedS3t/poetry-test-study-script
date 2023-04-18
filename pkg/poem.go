@@ -55,15 +55,20 @@ func (p Poem) GetRandomPart() string {
 
 	if len(p.Stanzas) == 1 {
 		// single stanza poem would need to extract from stanza
+		lines := len(strings.Split(p.Stanzas[0], "\n"))
+		if lines >= 6 {
+			return extractFromStanza(p.Stanzas[0], float32(4)/float32(lines))
+		}
 		return extractFromStanza(p.Stanzas[0], 0.5)
 	}
 
 	stanza := ""
-	lines := len(strings.Split(stanza, "\n"))
 
 	for len(stanza) < 10 {
 		stanza = p.Stanzas[rand.Intn(len(p.Stanzas))]
 	}
+
+	lines := len(strings.Split(stanza, "\n"))
 
 	if lines > 4 {
 		return extractFromStanza(stanza, float32(4)/float32(lines))
